@@ -3,7 +3,6 @@ import "./styling.css";
 
 const Buttons = ({ filterByType, setSat, displaySats }) => {
   return (
-    // className optional if applying stylings - else plain <div>
     <div className="flex-container"> 
       {displaySats.map((sat, id) => {
         return (
